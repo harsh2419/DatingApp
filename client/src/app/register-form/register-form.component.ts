@@ -24,8 +24,7 @@ export class RegisterFormComponent {
 
   register() {
     this.accountService.register(this.model).subscribe({
-      next: _ => this.router.navigateByUrl('/members'),
-      error: error => this.toastr.warning("An error occured!")
+      next: _ => this.router.navigateByUrl('/members')
     }
     )
     this.cancel();

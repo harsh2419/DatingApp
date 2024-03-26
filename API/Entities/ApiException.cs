@@ -1,0 +1,16 @@
+﻿namespace API.Entities
+{
+    public class ApiException
+    {
+        public string Details { get; set; }
+        public string Message { get; set; }
+        public int StatusCode { get; set; }
+
+        public ApiException(int statusCode, string message, string details)
+        {
+            StatusCode = statusCode;
+            Message = message;
+            Details = details;
+        }
+    }
+}

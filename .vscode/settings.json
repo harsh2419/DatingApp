@@ -11,6 +11,7 @@
     },
     "cSpell.words": [
         "hmac",
-        "HMACSHA"
+        "HMACSHA",
+        "toastr"
     ]
 }
